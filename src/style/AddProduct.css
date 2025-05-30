@@ -1,0 +1,23 @@
+.add-product-form {
+  max-width: 700px;
+  margin: auto;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+}
+
+input::placeholder {
+  color: #ccc;
+}
+
+label {
+  font-size: 0.95rem;
+}
+
+button {
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.03);
+}
